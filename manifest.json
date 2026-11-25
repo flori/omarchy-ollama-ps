@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "flori.ollama-ps",
   "name": "Ollama PS",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "flori",
   "license": "MIT",
   "description": "Ollama server state and loaded models for the Omarchy bar",
