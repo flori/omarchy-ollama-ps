@@ -154,6 +154,7 @@ BarWidget {
     text: root.barLabel()
     fontSize: Style.font.body
     horizontalMargin: root.vertical ? Style.space(2) : Style.space(4)
+    pressFeedbackButtons: Qt.NoButton
     foreground: root.state === "unavailable" ? (root.bar ? root.bar.urgent : Color.urgent) : (root.bar ? root.bar.barForeground : Color.foreground)
     tooltipText: {
       var c = Number(ollamaService
